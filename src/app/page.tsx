@@ -11,7 +11,7 @@ export default function Home() {
   const {recipes, isLoading, error} = useRecipeStore();
   return (
     <>
-      <div className="flex w-full justify-center items-center mb-4 pt-35">
+      <div className="flex w-full justify-center items-center mb-4 pt-5">
               <Link href="/recipes/new">
                   <Button color="primary">Add recipe</Button>
               </Link>
